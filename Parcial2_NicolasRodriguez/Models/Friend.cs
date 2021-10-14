@@ -25,7 +25,7 @@ namespace Parcial2_NicolasRodriguez.Models
 
         [Required]
         [Display(Name = "Cumpleaños")]
-        public DataType Birthday { get; set; }
+        public DateTime Birthday { get; set; }
 
     }
 }
