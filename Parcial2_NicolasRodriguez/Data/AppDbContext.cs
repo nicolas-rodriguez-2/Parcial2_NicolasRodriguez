@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Parcial2_NicolasRodriguez.Models;
 
 namespace Parcial2_NicolasRodriguez.Data
 {
@@ -12,5 +13,6 @@ namespace Parcial2_NicolasRodriguez.Data
         {
 
         }
+        public DbSet<Parcial2_NicolasRodriguez.Models.Friend> Friend { get; set; }
     }
 }

@@ -24,7 +24,7 @@ namespace Parcial2_NicolasRodriguez.Models
         public string Nickname { get; set; }
 
         [Required]
-        [Display(Name = "Enlace")]
+        [Display(Name = "Cumpleaños")]
         public DataType Birthday { get; set; }
 
     }
