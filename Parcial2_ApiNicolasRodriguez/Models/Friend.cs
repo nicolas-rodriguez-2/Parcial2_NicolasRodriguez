@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Parcial2_NicolasRodriguez.Models
+namespace Parcial2_ApiNicolasRodriguez.Models
 {
     public class Friend
     {
